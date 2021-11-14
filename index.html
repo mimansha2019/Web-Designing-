@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design4Space</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"><span>D</span>esign4<span>S</span>pace</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">designs</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">reviews</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="login.php" method="post">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="Login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember Me</label>
+        <p>Forget password? <a href="forget.html">Click Here</a></p>
+        <p>Don't have an Account? <a href="register.html">Register Now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Good Design is a language, not a style</h3>
+        <p>Design with Style, Design with Smile</p>
+        <a href="discover.html" class="btn">Discover More</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/interior2.mp4"></span>
+        <span class="vid-btn" data-src="images/interior5.mp4"></span>
+        <span class="vid-btn" data-src="images/interior4.mp4"></span>
+        <span class="vid-btn" data-src="images/interior7.mp4"></span>
+        <span class="vid-btn" data-src="images/interior6.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/interior2.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span><font color="#e76f51">b</span>
+        <span><font color="#e76f51">o</span>
+        <span><font color="#e76f51">o</span>
+        <span><font color="#e76f51">k</span>
+        <span class="space"></span>
+        <span><font color="#e76f51">n</span>
+        <span><font color="#e76f51">o</span>
+        <span><font color="#e76f51">w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/design.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Type of Interior Design</h3>
+                <div class="select">
+  <select>
+    <option value="1">---Select a Category---</option>
+    <option value="2">Minimalistic Design</option>
+    <option value="3">Modern Design</option>
+    <option value="4">Traditional Design</option>
+    <option value="5">Bohemian Design</option>
+    <option value="6">Contemporary Design</option>
+    <option value="7">Scandinavian Design</option>
+  </select>
+</div>
+
+            </div>
+            <div class="inputBox">
+                <h3>Designing Area</h3>
+                <div class="select">
+  <select>
+    <option value="1">---Select a Category---</option>
+    <option value="2">Living Room</option>
+    <option value="3">Bedroom</option>
+    <option value="4">Kitchen</option>
+    <option value="5">Closet</option>
+    <option value="6">Balcony</option>
+    <option value="7">Bathroom</option>
+    <option value="8">Patio</option>
+    <option value="9">Every Part of the Home</option>
+  </select>
+</div>
+            </div>
+            <div class="inputBox">
+                <h3>Area in bhk</h3>
+                <input type="number" placeholder="Give the area in bhk">
+            </div>
+            <div class="inputBox">
+                <h3>Residential Address</h3>
+                <input type="text" placeholder="Address">
+            </div>
+            <div class="inputBox">
+                <h3>Date of Consultancy</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="Book a Design Expert">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span><font color="#e76f51">d</span>
+        <span><font color="#e76f51">e</span>
+        <span><font color="#e76f51">s</span>
+        <span><font color="#e76f51">i</span>
+        <span><font color="#e76f51">g</span>
+        <span><font color="#e76f51">n</span>
+        <span><font color="#e76f51">s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/minimalist.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-magic"></i> MINIMALIST</h3>
+                <p>Minimalism is not a lack of something. It's simply the perfect amount of something.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.50,000 <span>Rs.60,000</span> </div>
+                <a href="#book" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/modern.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-magic"></i> MODERN</h3>
+                <p>We often think of the principal responsibility of a modern interior as staying out of the way.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.60,000 <span>Rs.70,000</span> </div>
+                <a href="#book" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/traditional.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-magic"></i> TRADITIONAL</h3>
+                <p>Traditional is the illusion of permanence.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.60,000 <span>Rs.75,000</span> </div>
+                <a href="#book" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/bohemian.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-magic"></i> BOHEMIAN</h3>
+                <p>Bold, colorful patterns are a hallmark of bohemian home decor.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.40,000 <span>Rs.50,000</span> </div>
+                <a href="#book" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/contemporary.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-magic"></i> CONTEMPORARY</h3>
+                <p>The principle of the design - the harmony, rhythm, and balance.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.55,000 <span>Rs.65,000</span> </div>
+                <a href="#book" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/scandinavian.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-magic"></i> SCANDINAVIAN</h3>
+                <p>Rawness and refinement are not opposite ends of a luxurious spectrum. They are two complementary features with which to populate a luxe environment.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.50,000 <span>Rs.70,000</span> </div>
+                <a href="#book" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span><font color="#e76f51">s</span>
+        <span><font color="#e76f51">e</span>
+        <span><font color="#e76f51">r</span>
+        <span><font color="#e76f51">v</span>
+        <span><font color="#e76f51">i</span>
+        <span><font color="#e76f51">c</span>
+        <span><font color="#e76f51">e</span>
+        <span><font color="#e76f51">s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-house-user"></i>
+            <h3>Budget Friendly Designs</h3>
+            <p>Budgeting has only one rule: Do not go over budget. Our designs are budget-friendly and are flexible according to your needs.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Fast Services</h3>
+            <p>Everything starts with the Customer. We value your time and needs. We try to provide fast service no matter how long it takes.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-people-arrows"></i>
+            <h3>Covid Protocols Safety</h3>
+            <p>The threat is the virus, not the people. Our team works strictly according to the covid protocols because we care for you and your needs.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-tools"></i>
+            <h3>Own Equipments</h3>
+            <p>We carry our own equipments at work, whatever is in need to design your beautiful home. Our team won't bother you with unnecessary equipments purchase.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24X7 Support</h3>
+            <p>For our customers and our team, designing means exceptional service, 24x7 wherever they are, whenever they have time. </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-users"></i>
+            <h3>Beyond Work Assistance</h3>
+            <p>We don't just end up doing the designing of your home. We go beyond that to offer any assistance you want after the service. We build relationships of lifetime service.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span><font color="#e76f51">g</span>
+        <span><font color="#e76f51">a</span>
+        <span><font color="#e76f51">l</span>
+        <span><font color="#e76f51">l</span>
+        <span><font color="#e76f51">e</span>
+        <span><font color="#e76f51">r</span>
+        <span><font color="#e76f51">y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/living room.jpg" alt="">
+            <div class="content">
+                <h3>Stunning Designs</h3>
+                <p>Making the best possible use of the available space.</p>
+                <a href="#book" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/bedroom.jpg" alt="">
+            <div class="content">
+                <h3>Stunning Designs</h3>
+                <p>Making the best possible use of the available space.</p>
+                <a href="#book" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/kitchen1.jpg" alt="">
+            <div class="content">
+                <h3>Stunning Designs</h3>
+                <p>Making the best possible use of the available space.</p>
+                <a href="#book" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/bathroom.jpg" alt="">
+            <div class="content">
+                <h3>Stunning Designs</h3>
+                <p>Making the best possible use of the available space.</p>
+                <a href="#book" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/closet.jpg" alt="">
+            <div class="content">
+                <h3>Stunning Designs</h3>
+                <p>Making the best possible use of the available space.</p>
+                <a href="#book" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/patio.jpg" alt="">
+            <div class="content">
+                <h3>Stunning Designs</h3>
+                <p>Making the best possible use of the available space.</p>
+                <a href="#book" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/balcony.jpg" alt="">
+            <div class="content">
+                <h3>Stunning Designs</h3>
+                <p>Making the best possible use of the available space.</p>
+                <a href="#book" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/tradition.jpg" alt="">
+            <div class="content">
+                <h3>Stunning Designs</h3>
+                <p>Making the best possible use of the available space.</p>
+                <a href="#book" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/couch.jpg" alt="">
+            <div class="content">
+                <h3>Stunning Designs</h3>
+                <p>Making the best possible use of the available space.</p>
+                <a href="#book" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span><font color="#e76f51">r</span>
+        <span><font color="#e76f51">e</span>
+        <span><font color="#e76f51">v</span>
+        <span><font color="#e76f51">i</span>
+        <span><font color="#e76f51">e</span>
+        <span><font color="#e76f51">w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/l5.jpg" alt="">
+                    <h3>Rudra Ahuja</h3>
+                    <p>The Design4Space team has a gift not only for design, but also for quickly getting to know customer and intuitively displaying that person's favorite things in the home.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/l1.jpg" alt="">
+                    <h3>Advika Khatri</h3>
+                    <p>Design4Space team helped me find the perfect look for my new modern house. I am absolutely THRILLED with their work and would recommend them to anybody.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/man1.jpg" alt="">
+                    <h3>Avyaan Sonawala</h3>
+                    <p>The Design4Space team did a very brilliant job. My space looks fascinating and enlightening. The team also took all the covid safety protocols. They did an amazing work, from start to finish. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/l2.jpg" alt="">
+                    <h3>Saira Bhatt</h3>
+                    <p>My place is perfect and their team really listened and made my place look great. Easy to work with, plus great taste with ability to stay on budget.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span><font color="#e76f51">c</span>
+        <span><font color="#e76f51">o</span>
+        <span><font color="#e76f51">n</span>
+        <span><font color="#e76f51">t</span>
+        <span><font color="#e76f51">a</span>
+        <span><font color="#e76f51">c</span>
+        <span><font color="#e76f51">t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contactus.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/logo1.png" alt="" width="80" height="80"></div>
+            <div class="swiper-slide"><img src="images/logo2.png" alt="" width="80" height="80"></div>
+            <div class="swiper-slide"><img src="images/logo3.png" alt="" width="80" height="80"></div>
+            <div class="swiper-slide"><img src="images/logo4.png" alt="" width="80" height="80"></div>
+            <div class="swiper-slide"><img src="images/logo5.png" alt="" width="80" height="80"></div>
+            <div class="swiper-slide"><img src="images/logo6.png" alt="" width="80" height="80"></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Transforming Spaces with core values: Quality, Professionalism, Price & Time. Creating interiors that reflect your style and personality. Reach out to us today! </p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+            <a href="#">australia</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#designs">Designs</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> mimansha & reena </span> | all rights reserved!! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>

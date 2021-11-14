@@ -1,0 +1,123 @@
+:root{
+  --orange:#ffa500;
+}
+
+navbar-brand{
+color: white;
+}
+
+h1{
+  text-align: center;
+  padding-top: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #ef233c;
+}
+
+.carousel-item{
+height: 70vh;
+min-height: 350px;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.carousel-caption h5{
+  font-size: 60px;
+  font-family: serif;
+  align-content: center;
+  font-style: normal;
+  font-weight: bold;
+  /* display: none;  remove comment to hide captions */
+}
+
+.carousel-caption p{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  /* display: none;  remove comment to hide captions */
+}
+
+.carousel-control {
+  text-shadow: 0;
+
+}
+
+
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,00001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) !important;
+}
+
+.carousel-control.right {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,00001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) !important;
+}
+
+.logo{
+  font-size: 3rem;
+  font-weight: bolder;
+  color:#fff;
+  text-transform: uppercase;
+}
+
+.logo span{
+  color:var(--orange);
+}
+
+span{
+  color: var(--orange);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav-item{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tz-gallery {
+  padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+  width: 100%;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+  border-radius: 4px;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+  body {
+      padding: 0;
+  }
+
+  .container.gallery-container {
+      border-radius: 0;
+  }
+}
+
+.footer-copyright{
+  background: cyan;
+}
+
